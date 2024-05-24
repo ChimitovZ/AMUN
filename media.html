@@ -1,22 +1,40 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Пример медиа</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="about.html">О нас</a></li>
-        <li><a href="media.html">Примеры медиа</a></li>
-        <li><a href="cat.html">Тут есть котик</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <p>askdjalskjd</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пример медиа</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a class="active" href="media.html">Примеры медиа</a></li>
+          <li><a href="cat.html">Тут есть котик</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <h1 class="title">Я умею в видосики и картиночки</h1>
+
+      <p>Вот так выглядит видео</p>
+      <video width="640" height="360" controls>
+        <source src="public/america_ya.mp4" type="video/mp4" />
+        Ваш браузер не поддерживает HTML5 видео.
+      </video>
+      <hr />
+      <p>Вот так выглядит аудио</p>
+      <audio controls>
+        <source src="public/america-ya-hallo.mp3" type="audio/mpeg" />
+        Ваш браузер не поддерживает воспроизведение аудио.
+      </audio>
+
+      <hr />
+      <p>Вот так выглядит изображение</p>
+      <img src="public/1.jpg" alt="картинка не загрузилась" />
+    </div>
+  </body>
 </html>

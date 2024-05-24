@@ -1,7 +1,7 @@
 body {
   background-color: rgb(46, 46, 58);
   color: rgb(230, 232, 230);
-  font-family: Arial, sans-serif; /* Замените на ваш выбор шрифта */
+  font-family: Arial, sans-serif; 
   margin: 0;
   padding: 0;
 }
@@ -23,8 +23,65 @@ nav ul li {
   margin: 0 10px;
 }
 
+nav ul li .active {
+  text-decoration: underline;
+}
+
 nav ul li a {
   text-decoration: none;
   color: white;
   font-size: 18px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.content p {
+  line-height: 1.5;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.content details {
+  border: 1px solid rgb(1, 151, 246);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.content img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.content video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.content audio {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.content ul li {
+  padding: 5px 0;
 }
